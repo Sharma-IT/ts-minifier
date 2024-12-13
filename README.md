@@ -1,7 +1,5 @@
 # TypeScript Minifier
 
-## Overview
-
 `ts-minifier` is an advanced TypeScript compression tool that provides flexible code minification with comprehensive configuration options.
 
 ## Features
