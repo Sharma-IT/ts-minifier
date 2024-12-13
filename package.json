@@ -1,11 +1,11 @@
 {
   "name": "ts-minifer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Advanced TypeScript code minification and compression tool",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
-    "ts-minifier": "./dist/cli.js"
+    "ts-minifier": "dist/cli.js"
   },
   "scripts": {
     "build": "tsc",
@@ -21,6 +21,14 @@
   ],
   "author": "Shubham Sharma",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sharma-IT/ts-minifier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sharma-IT/ts-minifier/issues"
+  },
+  "homepage": "https://github.com/Sharma-IT/ts-minifier#readme",
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^9.5.0",
